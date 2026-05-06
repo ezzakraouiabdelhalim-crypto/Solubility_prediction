@@ -73,6 +73,9 @@ The model provides two layers of confidence:
 | Ibuprofen | -3.58 | -3.7 | 0.12 |
 | Hexane | -3.95 | -3.85 | 0.10 |
 
+## Data
+Download the dataset [here](https://raw.githubusercontent.com/PatWalters/solubility/master/solubility-data.csv) and place it in the project folder.
+
 The model excels on drug-like molecules (avg error ~0.3 logS) and is less reliable on very simple/miscible compounds.
 
 ## Tools
